@@ -1,0 +1,21 @@
+.not-found__background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+.not-found__background p:first-child{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.not-found__background p:nth-child(2){
+    font-size: 14px;
+    margin-top: 20px;
+}
+.not-found__background p:last-child{
+    font-size: 24px;
+    margin: 10px 0;
+}

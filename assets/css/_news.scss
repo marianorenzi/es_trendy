@@ -1,0 +1,199 @@
+.news-line{
+    width: 100%;
+}
+.news-line__wrapper{
+    max-width: $main-width;
+    margin: auto;
+    padding: 35px 0 45px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.news-line__container{
+    max-width: 870px;
+}
+.news-line__container h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.news-line__grid{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.news-line__grid-not-even::after{
+    content: '';
+    display: block;
+    margin: 0px 10px 0;
+    height: 0px;
+    -webkit-box-flex: 1;
+       -moz-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-preferred-size: 280px;
+        flex-basis: 280px;
+    overflow: hidden;
+}
+
+.news-line__grid li{
+    margin: 20px 10px 0;
+    height: 353px;
+    -webkit-box-flex: 1;
+       -moz-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-preferred-size: 280px;
+        flex-basis: 280px;
+    overflow: hidden;
+}
+.news-line__image{
+    height: 180px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.news-line__image a{
+    opacity: 0.3;
+}
+.news-line__image a:hover{
+    opacity: 1;
+}
+.news-line__image a img{
+    min-width: 100%;
+    min-height: 100%;
+}
+.news-line__date{
+    height: 51px;
+    min-width: 78px;
+    max-width: 78px;
+    background-color: #202020;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 5px;
+    margin-right: 22px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.news-line__title{
+    display: block;
+    margin: 20px 0;
+}
+.news-line__title:hover{
+    color: $news-hover;
+}
+.news-line__map{
+    display: block;
+    height: 360px;
+    width: 100%;
+}
+.nav-links{
+    margin: 40px auto 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.news-line__paginator li{
+    display: inline-block;
+}
+
+.paginator__wrapper > a:first-of-type{
+    display: inline-block;
+    height: 27px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0 17px;
+    width: auto;
+    color: #ffffff;
+    border: 1px solid $paginator;
+    background-color: $paginator;
+    border-radius: 13px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin: 5px 15px;
+}
+.paginator__wrapper > a:last-of-type{
+    display: inline-block;
+    height: 27px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0 17px;
+    width: auto;
+    color: #ffffff;
+    border: 1px solid $paginator;
+    background-color: $paginator;
+    border-radius: 13px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin: 5px 15px;
+}
+.news-line__paginator li a{
+    display: block;
+    width: 27px;
+    height: 27px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    color: $paginator;
+    border: 1px solid $paginator;
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+.news-line__paginator li p{
+    display: block;
+    width: 27px;
+    height: 27px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #ffffff;
+    background-color: $paginator-active;
+    border: 1px solid $paginator-active;
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+.sidebar{
+    min-width: 280px;
+    -ms-flex-preferred-size: 280px;
+        flex-basis: 280px;
+    margin-top: 20px;
+    margin-right: 10px;
+}

@@ -1,0 +1,9 @@
+.sidebar{
+    min-width: 280px;
+    -ms-flex-preferred-size: 280px;
+        flex-basis: 280px;
+    margin: 44px 10px 0;
+}
+.single-post .sidebar{
+    margin-top: 0;
+}

@@ -1,0 +1,57 @@
+.widget_search{
+    padding: 0 12px 13px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: $post-search-form;
+    text-align: center;
+}
+.widget_search > .widget-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 20px;
+    color: #ffffff;
+}
+.post-search-form__form{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.post-search-form__form input{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 33px;
+}
+.post-search-form__input{
+    color: #9c9c9c;
+    border: none;
+    padding: 0 14px;
+    -webkit-box-flex: 1;
+       -moz-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -moz-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.post-search-form__button{
+    background-color: #1f2120;
+    background-size: 50%;
+    border: none;
+    border-bottom: 1px solid #0d0b0c;
+    width: 33px;
+    -moz-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #ffffff;
+}

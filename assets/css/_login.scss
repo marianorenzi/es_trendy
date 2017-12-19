@@ -1,0 +1,44 @@
+.article-block__copy .es-login__wrap-name{
+  text-align: center;
+}
+.es-login__wrap{
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto 50px;
+  background: #f5f5f5;
+  border-radius: 5px;
+  padding: 0;
+}
+.es-login__wrap form{
+  background: #56c000;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.es-login__wrap .es-login__links {
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+.es-login__wrap .es-login__links a{
+  line-height: 30px;
+  color: #56c000 !important;
+  text-decoration: none;
+}
+.es-login__wrap .es-login__links a:hover{
+  text-decoration: none;
+}
+.es-login__wrap .es-field__wrap, .es-login__wrap .es-submit__wrap{
+  position: relative;
+  margin: 5px 0 15px !important;
+  width: 100%;
+}
+.es-login__wrap .es-field__wrap input:not([type=submit]),
+.es-login__wrap .es-submit__wrap input:not([type=submit]) {
+  border: 1px solid #dedede;
+  height: 34px;
+  padding-left: 30px;
+  width: -webkit-calc(100% - 35px);
+  width: -moz-calc(100% - 35px);
+  width: calc(100% - 35px);
+}

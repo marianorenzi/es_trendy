@@ -1,0 +1,121 @@
+.why-choose-us{
+    background-image: url(../../assets/images/why_choose_background.jpg);
+    padding: 45px 10px 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.why-choose-us__wrapper{
+    max-width: $main-width;
+    margin: auto;
+}
+.why-choose-us__container{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+}
+.why-choose-us__container li{
+    padding: 10px;
+    -ms-flex-preferred-size: 350px;
+        flex-basis: 350px;
+    text-align: center;
+    margin-top: 96px;
+    min-width: 200px;
+    -webkit-box-flex: 1;
+       -moz-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+.es-request-widget-wrap button,
+.es-login__wrap .es-submit__wrap input.es-btn.es-btn-orange,
+.es-login__wrap .es-submit__wrap input,
+.es-listing .properties .listing__btn-wrap .btn-black,
+.btn-black{
+    -webkit-appearance: none;
+    border: 0;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 40px !important;
+    width: 190px;
+    margin: 25px 0 -20px 0;
+    background-color: #202020 !important;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    border-bottom: 2px solid #0d0d0d !important;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+.es-request-widget-wrap button,
+.es-login__wrap .es-submit__wrap input.es-btn.es-btn-orange{
+    margin: 0;
+}
+.es-request-widget-wrap button{
+    padding: 0 !important;
+}
+.es-login__wrap .es-submit__wrap input{
+    margin: 0;
+    width: 143px;
+}
+
+.es-login__wrap .es-submit__wrap input.es-btn.es-btn-orange{
+    line-height: 23px;
+}
+.es-request-widget-wrap button:hover,
+.es-login__wrap .es-submit__wrap input.es-btn.es-btn-orange:hover,
+.es-login__wrap .es-submit__wrap input:hover,
+.es-listing .properties .listing__btn-wrap .btn-black:hover,
+.btn-black:hover{
+    border: none !important;
+    background-color: #0d0d0d !important;
+    color: #ffffff;
+    border-bottom: 2px solid #0d0d0d !important;
+}
+.why-choose-us__container li h3{
+    margin: 17px 0 11px;
+}
+.why-choose-us__description{
+    color: #ffffff;
+    height: 63px;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 20px;
+}
+.why-choose-us__why-choose-img{
+    height: 184px;
+    width: 184px;
+    margin: -96px auto 0;
+    border: 6px solid $why-choose-circle;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.why-choose-us__why-choose-img img{
+    min-width: 185px;
+    min-height: 185px;
+}
+.why-choose-us__border-container{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 0 24px 33px;
+}
+.why-choose-us__border-container:hover{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.why-choose-us__border-container:hover > div{
+    border: 6px solid #ffffff;
+}

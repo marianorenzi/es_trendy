@@ -1,0 +1,621 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Estatik Trendy Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-20 20:27+0000\n"
+"PO-Revision-Date: 2017-05-20 20:43+0000\n"
+"Last-Translator: estatik <test@test.com>\n"
+"Language-Team: Russian\n"
+"Language: ru-RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:46 comments.php:66 archive.php:52
+#: inc/class-trendy-listing-shortcode.php:36
+msgid "Previous"
+msgstr ""
+
+#: search.php:47 comments.php:67 archive.php:53
+#: inc/class-trendy-listing-shortcode.php:37
+msgid "Next"
+msgstr ""
+
+#: search.php:54 archive.php:60
+msgid "Sorry, nothing found"
+msgstr ""
+
+#: single.php:36
+msgid "Posted in"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:60
+msgid "Reply"
+msgstr ""
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:102
+msgid "Hello"
+msgstr "Привет"
+
+#: templates/contact-form.php:6
+msgid "Your name"
+msgstr ""
+
+#: templates/contact-form.php:8
+msgid "Your email"
+msgstr ""
+
+#: templates/contact-form.php:10
+msgid "Your phone"
+msgstr ""
+
+#: templates/contact-form.php:12
+msgid "Your Questions"
+msgstr ""
+
+#: templates/contact-form.php:15
+msgid "Send"
+msgstr ""
+
+#: templates/agent.php:13 templates/agent.php:15
+msgid "Agent profile image"
+msgstr ""
+
+#: templates/agent.php:42 inc/class-trendy-theme.php:429
+msgid "Company"
+msgstr ""
+
+#: templates/agent.php:57
+msgid "Properties sold"
+msgstr ""
+
+#: inc/class-contact-form.php:78
+msgid "Name"
+msgstr ""
+
+#: inc/class-contact-form.php:79 inc/admin/templates/contact.php:35
+msgid "Email"
+msgstr ""
+
+#: inc/class-contact-form.php:80
+msgid "Phone"
+msgstr ""
+
+#: inc/class-contact-form.php:81
+msgid "Questions"
+msgstr ""
+
+#: inc/class-trendy-theme.php:335
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/class-trendy-theme.php:336
+msgid "Main Menu"
+msgstr ""
+
+#: inc/class-trendy-theme.php:337
+msgid "Account Menu"
+msgstr ""
+
+#: inc/class-trendy-theme.php:338
+msgid "Login Menu"
+msgstr ""
+
+#: inc/class-trendy-theme.php:351
+msgctxt "post type general name"
+msgid "News"
+msgstr ""
+
+#: inc/class-trendy-theme.php:352
+msgctxt "post type singular name"
+msgid "News"
+msgstr ""
+
+#: inc/class-trendy-theme.php:353
+msgctxt "News"
+msgid "Add New"
+msgstr ""
+
+#: inc/class-trendy-theme.php:354
+msgid "Add New News"
+msgstr ""
+
+#: inc/class-trendy-theme.php:355
+msgid "Edit News"
+msgstr ""
+
+#: inc/class-trendy-theme.php:356
+msgid "New News"
+msgstr ""
+
+#: inc/class-trendy-theme.php:357
+msgid "All News"
+msgstr ""
+
+#: inc/class-trendy-theme.php:358
+msgid "View News"
+msgstr ""
+
+#: inc/class-trendy-theme.php:359
+msgid "Search News"
+msgstr ""
+
+#: inc/class-trendy-theme.php:360
+msgid "No News found"
+msgstr ""
+
+#: inc/class-trendy-theme.php:361
+msgid "No News found in the Trash"
+msgstr ""
+
+#: inc/class-trendy-theme.php:378
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr ""
+
+#: inc/class-trendy-theme.php:379
+msgctxt "post type singular name"
+msgid "Testimonials"
+msgstr ""
+
+#: inc/class-trendy-theme.php:380
+msgctxt "Testimonials"
+msgid "Add New"
+msgstr ""
+
+#: inc/class-trendy-theme.php:381
+msgid "Add New Testimonials"
+msgstr ""
+
+#: inc/class-trendy-theme.php:382
+msgid "Edit Testimonials"
+msgstr ""
+
+#: inc/class-trendy-theme.php:383
+msgid "New Testimonials"
+msgstr ""
+
+#: inc/class-trendy-theme.php:384
+msgid "All Testimonials"
+msgstr ""
+
+#: inc/class-trendy-theme.php:385
+msgid "View Testimonials"
+msgstr ""
+
+#: inc/class-trendy-theme.php:386
+msgid "Search Testimonials"
+msgstr ""
+
+#: inc/class-trendy-theme.php:387
+msgid "No Testimonials found"
+msgstr ""
+
+#: inc/class-trendy-theme.php:388
+msgid "No Testimonials found in the Trash"
+msgstr ""
+
+#: inc/class-trendy-theme.php:411
+msgid "Testimonial Info"
+msgstr ""
+
+#: inc/class-trendy-theme.php:412
+msgid "Button Label"
+msgstr ""
+
+#: inc/class-trendy-theme.php:435
+msgid "Author"
+msgstr ""
+
+#: inc/class-trendy-theme.php:454
+msgid "Button link label"
+msgstr ""
+
+#: inc/class-trendy-theme.php:607
+msgid "Top Wide Sidebar"
+msgstr ""
+
+#: inc/class-trendy-theme.php:609
+msgid "Add widgets above the content."
+msgstr ""
+
+#: inc/class-trendy-theme.php:617
+msgid "Bottom Wide Sidebar"
+msgstr ""
+
+#: inc/class-trendy-theme.php:619
+msgid "Add widgets below the content."
+msgstr ""
+
+#: inc/class-trendy-theme.php:627
+msgid "Article Sidebar Right"
+msgstr ""
+
+#: inc/class-trendy-theme.php:629
+msgid "Add widgets at the right side on the articles and archives pages."
+msgstr ""
+
+#: inc/class-trendy-theme.php:637
+msgid "Property Sidebar Right"
+msgstr ""
+
+#: inc/class-trendy-theme.php:639
+msgid "Add widgets at the right side on the property pages."
+msgstr ""
+
+#: inc/class-trendy-theme.php:647
+msgid "Page Sidebar Right"
+msgstr ""
+
+#: inc/class-trendy-theme.php:649
+msgid "Add widgets at the right side on the pages."
+msgstr ""
+
+#: inc/class-trendy-theme.php:683
+msgid "Ver"
+msgstr ""
+
+#: inc/class-options-container.php:100
+msgid "Send us a message"
+msgstr ""
+
+#: inc/class-options-container.php:104
+msgid "Thank you for contacting us!"
+msgstr ""
+
+#: inc/class-options-container.php:112
+msgid "Free line for you"
+msgstr ""
+
+#: inc/class-options-container.php:120
+msgid "Email Us"
+msgstr ""
+
+#: inc/class-options-container.php:128
+msgid "Our Address"
+msgstr ""
+
+#: inc/class-options-container.php:140
+msgid "404 Error"
+msgstr ""
+
+#: inc/class-options-container.php:148
+msgid "Go to the Home page"
+msgstr ""
+
+#: inc/admin/class-options-page.php:70
+msgid "General"
+msgstr ""
+
+#: inc/admin/class-options-page.php:74
+msgid "Search Box Style"
+msgstr ""
+
+#: inc/admin/class-options-page.php:78
+msgid "Social Sharing"
+msgstr ""
+
+#: inc/admin/class-options-page.php:82
+msgid "Contact Info"
+msgstr ""
+
+#: inc/admin/class-options-page.php:86 inc/widgets/class-trendy-widget.php:53
+msgid "404 Page"
+msgstr ""
+
+#: inc/admin/class-options-page.php:149 inc/widgets/class-banners-widget.php:52
+#: inc/widgets/forms/es-trendy-banners-widget-form.php:16
+msgid "Select Image"
+msgstr ""
+
+#: inc/admin/class-options-page.php:150
+#: inc/widgets/class-why-choose-us-widget.php:82
+#: inc/widgets/class-banners-widget.php:53
+#: inc/widgets/class-testimonials-widget.php:53
+msgid "Insert Image"
+msgstr ""
+
+#: inc/admin/class-options-page.php:151
+#: inc/widgets/class-why-choose-us-widget.php:83
+#: inc/widgets/class-banners-widget.php:54
+#: inc/widgets/class-testimonials-widget.php:54
+msgid "Remove Image"
+msgstr ""
+
+#: inc/admin/class-options-page.php:193
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/class-options-page.php:194
+msgid "No"
+msgstr ""
+
+#: inc/widgets/class-join-us-widget.php:13
+msgid "Trendy Join Us"
+msgstr ""
+
+#: inc/widgets/class-contact-map-widget.php:13
+msgid "Trendy Contact Map"
+msgstr ""
+
+#: inc/widgets/class-latest-news-widget.php:13
+msgid "Trendy Latest News"
+msgstr ""
+
+#: inc/widgets/class-contact-info-widget.php:13
+msgid "Trendy Contact Info"
+msgstr ""
+
+#: inc/widgets/class-week-offer-widget.php:13
+msgid "Trendy Offer of the Week"
+msgstr ""
+
+#: inc/widgets/class-why-choose-us-widget.php:13
+msgid "Trendy Why Choose Us"
+msgstr ""
+
+#: inc/widgets/class-why-choose-us-widget.php:81
+#: inc/widgets/class-testimonials-widget.php:52
+#: inc/widgets/forms/es-trendy-join-us-widget-form.php:27
+#: inc/widgets/forms/es-trendy-why-choose-us-widget-form.php:21
+#: inc/widgets/forms/es-trendy-testimonials-widget-form.php:22
+msgid "Select Background Image"
+msgstr ""
+
+#: inc/widgets/class-banners-widget.php:13
+msgid "Trendy Banners"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:45
+msgid "Home page with latest posts"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:46
+msgid "Archive page"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:47
+msgid "Single Page"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:48
+msgid "Single Property Page"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:49
+msgid "Archive Property Page"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:50
+msgid "Category Page"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:51
+msgid "Search Page"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:52
+msgid "Author Page"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:81
+msgid "Show on pages:"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:96
+msgid "Select pages"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:124
+msgid "All pages"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:125
+msgid "Show on checked pages"
+msgstr ""
+
+#: inc/widgets/class-trendy-widget.php:126
+msgid "Hide on checked pages"
+msgstr ""
+
+#: inc/widgets/class-testimonials-widget.php:13
+msgid "Trendy Testimonials"
+msgstr ""
+
+#: inc/admin/templates/404.php:2
+msgid "Page 404 background image"
+msgstr ""
+
+#: inc/admin/templates/404.php:6 inc/admin/templates/general-tab.php:12
+#: inc/admin/templates/general-tab.php:30
+msgid "Select image"
+msgstr ""
+
+#: inc/admin/templates/404.php:20
+msgid "404 Page title"
+msgstr ""
+
+#: inc/admin/templates/404.php:25
+msgid "404 Page text"
+msgstr ""
+
+#: inc/admin/templates/404.php:33
+msgid "404 Button label"
+msgstr ""
+
+#: inc/admin/templates/contact.php:2
+msgid "Send Message slug"
+msgstr ""
+
+#: inc/admin/templates/contact.php:7
+msgid "User notification header"
+msgstr ""
+
+#: inc/admin/templates/contact.php:12
+msgid "User notification text"
+msgstr ""
+
+#: inc/admin/templates/contact.php:20
+msgid "Tel Title"
+msgstr ""
+
+#: inc/admin/templates/contact.php:25
+msgid "Tel Number"
+msgstr ""
+
+#: inc/admin/templates/contact.php:30
+msgid "Email Title"
+msgstr ""
+
+#: inc/admin/templates/contact.php:40
+msgid "Address Title"
+msgstr ""
+
+#: inc/admin/templates/contact.php:45
+msgid "Address"
+msgstr ""
+
+#: inc/admin/templates/search-box.php:10
+msgid "Search box style"
+msgstr ""
+
+#: inc/admin/templates/search-box.php:26
+msgid "Background image"
+msgstr ""
+
+#: inc/admin/templates/search-box.php:28 inc/admin/templates/search-box.php:28
+#: inc/admin/templates/search-box.php:29
+msgid "Add image"
+msgstr ""
+
+#: inc/admin/templates/options.php:6
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/templates/options.php:11
+msgid "Please fill up your Theme Options and click save to finish."
+msgstr ""
+
+#: inc/admin/templates/options.php:12
+msgid "Save"
+msgstr ""
+
+#: inc/admin/templates/general-tab.php:2
+msgid "Main Theme Color"
+msgstr ""
+
+#: inc/admin/templates/general-tab.php:8
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/templates/general-tab.php:26
+msgid "Favicon"
+msgstr ""
+
+#: inc/admin/templates/general-tab.php:44
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/admin/templates/general-tab.php:49
+msgid "News per page"
+msgstr ""
+
+#: inc/admin/templates/general-tab.php:60
+msgid "Copyright"
+msgstr ""
+
+#: inc/admin/templates/general-tab.php:65
+msgid "Google map API key:"
+msgstr ""
+
+#: inc/admin/templates/social-sharing.php:2
+msgid "Twitter link"
+msgstr ""
+
+#: inc/admin/templates/social-sharing.php:7
+msgid "Facebook link"
+msgstr ""
+
+#: inc/admin/templates/social-sharing.php:12
+msgid "Google plus link"
+msgstr ""
+
+#: inc/admin/templates/social-sharing.php:17
+msgid "LinkedIn link"
+msgstr ""
+
+#: inc/widgets/templates/es-trendy-why-choose-us-widget.php:35
+#: inc/widgets/templates/es-trendy-join-us-widget.php:27
+msgid "View"
+msgstr ""
+
+#: inc/widgets/templates/es-trendy-week-offer-widget.php:33
+msgid "Go on reading"
+msgstr ""
+
+#: inc/widgets/forms/es-trendy-latest-news-widget-form.php:15
+#: inc/widgets/forms/es-trendy-week-offer-widget-form.php:16
+#: inc/widgets/forms/es-trendy-testimonials-widget-form.php:16
+msgid "Widget Title:"
+msgstr ""
+
+#: inc/widgets/forms/es-trendy-banners-widget-form.php:29
+msgid "Banner Link:"
+msgstr ""
+
+#: inc/widgets/forms/es-trendy-week-offer-widget-form.php:21
+msgid "Select property"
+msgstr ""
+
+#: inc/widgets/forms/es-trendy-join-us-widget-form.php:16
+msgid "Select page for block"
+msgstr ""
+
+#: inc/widgets/forms/es-trendy-testimonials-widget-form.php:35
+msgid "Amount of the testimonials"
+msgstr ""
+
+#. Name of the theme
+msgid "Estatik Trendy Theme"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Trendy Theme is a real estate theme built for Estatik Simple and Pro plugins."
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "http://estatik.net/"
+msgstr ""
+
+#. Author of the theme
+msgid "Estatik"
+msgstr ""

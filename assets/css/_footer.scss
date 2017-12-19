@@ -1,0 +1,98 @@
+footer{
+    background: $footer-background;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+}
+.footer{
+    max-width: $main-width;
+    height: 64px;
+    line-height: 64px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+       -moz-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 0 10px;
+}
+.footer__menu{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+/*    flex-grow: 1;*/
+    -webkit-box-pack: end;
+       -moz-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.footer__menu li a{
+    padding: 0 29px;
+    border-right: 1px solid #202020;
+    background-color: unset;
+    border-bottom: 0;
+}
+.footer__menu li a:hover{
+    color: $socials;
+}
+.footer__menu li:last-of-type a{
+    border-right: none;
+    padding-right: 0;
+}
+.footer__socials{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+/*    flex-grow: 1;*/
+    -webkit-box-pack: end;
+       -moz-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+.footer__copyright{
+    -webkit-box-flex: 1;
+       -moz-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+}
+.footer__socials a{
+    display: block;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 100%;
+    color: #ffffff;
+    background-color: $socials;
+}
+.footer__socials a:first-of-type{
+    margin-left: 57px;
+}
+.footer__socials a:hover,
+.es-share-wrapper a:hover{
+    background-color: $socials-hover;
+}
+@import 'responsive';

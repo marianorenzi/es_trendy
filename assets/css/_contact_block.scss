@@ -1,0 +1,43 @@
+.contact-block-line{
+    background-color: $contact-block-background;
+    width: 100%;
+}
+.contact-block-line__container{
+    max-width: $main-width;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-block-line__grid li p:first-child{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin: 25px 0 18px;
+    text-align: center;
+    border-radius: 100%;
+    color: #ffffff;
+    background-color: $socials;
+    min-width: 36px;
+    font-size: 30px;
+}
+.contact-block-line__grid{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.contact-block-line__grid li{
+    text-align: center;
+    -ms-flex-preferred-size: 300px;
+        flex-basis: 300px;
+    -webkit-box-flex: 1;
+       -moz-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1
+}
+.contact-block-line__content{
+    margin-bottom: 25px;
+}

@@ -1,0 +1,23 @@
+.offer-of-the-week{
+    border: 1px solid $main-menu-backgrround;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.offer-of-the-week h1{
+    margin: 10px 0;
+}
+.offer-of-the-week img {
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 5px;
+}
+.offer-of-the-week__description{
+    display: block;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.offer-of-the-week__button{
+    display: block;
+    margin: 20px auto 10px;
+}

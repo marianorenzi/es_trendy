@@ -1,0 +1,16 @@
+.main-block{
+    width: 100%;
+}
+.main-block__wrapper{
+    max-width: $main-width;
+    margin: auto;
+    padding: 35px 0 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
